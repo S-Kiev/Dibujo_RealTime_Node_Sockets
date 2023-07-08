@@ -1,0 +1,86 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+canvas{
+    display: block;
+}
+
+.contenido{
+    position: relative;
+}
+
+.colores{
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+}
+
+.borrar{
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+    margin-left: 170px;
+}
+
+#btn-color-1{
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#btn-color-2{
+    width: 30px;
+    height: 30px;
+    background-color: darkblue;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#btn-color-3{
+    width: 30px;
+    height: 30px;
+    background-color: darkgoldenrod;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#btn-color-4{
+    width: 30px;
+    height: 30px;
+    background-color: forestgreen;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#btn-color-5{
+    width: 30px;
+    height: 30px;
+    background-color: indigo;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#btn-borrar{
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    color: red;
+}
+
+#usuarios{
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+    margin-left: 80%;
+    font-size: 20px;
+    color: green;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenido">
+        <canvas id="canvas"></canvas>
+        <div class="colores">
+            <button id="btn-color-1" onclick="cambiarColor('crimson')"></button>
+            <button id="btn-color-2" onclick="cambiarColor('darkblue')"></button>
+            <button id="btn-color-3" onclick="cambiarColor('darkgoldenrod')"></button>
+            <button id="btn-color-4" onclick="cambiarColor('forestgreen')"></button>
+            <button id="btn-color-5" onclick="cambiarColor('indigo')"></button>
+        </div>
+        <div class="borrar">
+            <button id="btn-borrar" onclick="borrarTodo()">X</button>
+        </div>
+        <div id="usuarios">
+            Número de usuarios conectados: 0
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
